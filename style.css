@@ -1,2 +1,30 @@
-head{font-family: Georgia, 'Times New Roman', Times, serif;}
-body{color: blueviolet;}
+head {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section.coiffure h2 {
+    color: teal;
+    
+}
+
+section.cuisine h2 {
+    color: tomato;
+}
+
+section.bricolage h2 {
+    color: blue;
+}
+
+section.beaute h2 {
+    color: orange;
+}
+
+#navigation li a {
+    font-size: 30px;
+    color: salmon;
+}
+
+a.link-accueil {
+    font-size: 30px;
+    color: purple;
+}
