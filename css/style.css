@@ -2,9 +2,16 @@ head {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+html {
+    background-image: url("/image/wolf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 100vh;
+    height: 100vh;
+}
+
 section.coiffure h2 {
     color: teal;
-    
 }
 
 section.cuisine h2 {
@@ -27,4 +34,16 @@ section.beaute h2 {
 a.link-accueil {
     font-size: 30px;
     color: purple;
+}
+
+h2 {
+    font-style: italic;
+}
+
+article, p {
+    color: brown;
+}
+
+.page h1 {
+    color: cyan;
 }
